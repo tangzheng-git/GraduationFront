@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HeadComponent } from './head/head.component';
 
 // 用NgModule装饰器声明一个模块
 @NgModule({
@@ -9,7 +10,8 @@ import { AppComponent } from './app.component';
     // 声明组件
     // 声明指令
     // 声明管道
-    AppComponent
+    AppComponent,
+    HeadComponent
   ],
   imports: [
     // 声明依赖的其他模块
