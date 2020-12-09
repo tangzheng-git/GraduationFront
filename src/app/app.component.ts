@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   // 指定一个html文件作为组件的模板，定义了组件的布局和内容
   // 使用Angular的数据绑定语法
-  templateUrl: './app.component.html',
+  templateUrl: './app.component.new.html',
   // 指定一组css文件
   styleUrls: ['./app.component.css']
 })
