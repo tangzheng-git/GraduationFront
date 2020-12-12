@@ -5,6 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
+// import * as $ from 'jquery';
+// declare var jQuery: (selector: string) => any;
+
 // 引入组件 模块 服务
 
 

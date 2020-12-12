@@ -30,7 +30,9 @@ gulp.task('jshint',
 
 
 var js_file = [
-  './node_modules/angular/angular.js',
+  "./node_modules/jquery/dist/jquery.min.js",
+  "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+  // './node_modules/angular/angular.js',
   './node_modules/angular-ui-router/release/angular-ui-router.js'
 ];
 
