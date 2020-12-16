@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
+import { InitialComponent } from './initial/initial.component';
 // import * as $ from 'jquery';
 // declare var jQuery: (selector: string) => any;
 
@@ -19,7 +20,8 @@ import {AppRoutingModule} from './app-routing/app-routing.module';
     // 声明指令
     // 声明管道
     AppComponent,
-    HeadComponent
+    HeadComponent,
+    InitialComponent
   ],
   imports: [
     // 引入 | 声明 依赖的其他模块

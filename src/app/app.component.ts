@@ -19,4 +19,5 @@ import { Component } from '@angular/core';
 // 在这个类中编写业务逻辑
 export class AppComponent {
   title = 'GraduationFront';
+  constructor() { }
 }

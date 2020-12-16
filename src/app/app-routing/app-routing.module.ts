@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HeadComponent } from '../head/head.component';
+import { InitialComponent } from '../initial/initial.component';
 
 
 const appRoutes: Routes = [
   // Component: 导航到此路由时，路由器需要创建的组件（HeroesComponent）
   { path: 'header', component: HeadComponent },
+  { path: 'initial', component: InitialComponent },
 ];
 
 

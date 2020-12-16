@@ -32,9 +32,7 @@ export class HeadComponent implements OnInit {
           });
       });
 
-    $('#aaa').html('123456');
-
-
+    // $('#aaa').html('123456');
   }
 
 }
